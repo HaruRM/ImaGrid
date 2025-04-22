@@ -1,0 +1,35 @@
+body {
+  background-color: antiquewhite;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin: 20px;
+  color: #333;
+}
+
+h1 {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.item {
+  background-color: #fff;
+  border: 3px solid #d1cfcf;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
